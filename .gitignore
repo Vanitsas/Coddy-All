@@ -1,0 +1,63 @@
+# ----------------------------
+# Windows gereksiz dosyalar
+# ----------------------------
+*.lnk
+*.ini
+*.tmp
+Desktop.ini
+Thumbs.db
+$RECYCLE.BIN/
+
+# ----------------------------
+# Sistem ve geçici dosyalar
+# ----------------------------
+AppData/
+*.log
+*.bak
+
+# ----------------------------
+# IDE ve editör dosyaları
+# ----------------------------
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.code-workspace
+
+# ----------------------------
+# Python spesifik dosyalar
+# ----------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+*.venv
+env/
+venv/
+*.egg-info/
+*.egg
+
+# ----------------------------
+# MacOS gereksizleri
+# ----------------------------
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ----------------------------
+# Node veya web projeleri (isteğe bağlı)
+# ----------------------------
+node_modules/
+dist/
+build/
+
+# ----------------------------
+# Genel geçici veya kişisel dosyalar
+# ----------------------------
+*.swp
+*.swo
+*.tmp
+*.bak
+*.old
+*.orig
