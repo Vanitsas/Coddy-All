@@ -1,0 +1,95 @@
+.menu-panel {
+  max-width: 600px;
+  background: #fffbe6;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+  text-align: center;
+  color: #cc7a00;
+}
+
+.top-menu {
+  margin-bottom: 20px;
+}
+
+.menu-list {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background-color: #ffedcc;
+  border-radius: 8px;
+}
+
+.menu-item {
+  position: relative;
+  padding: 10px 15px;
+}
+
+.menu-controls {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: stretch;
+}
+
+.search {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.cta-button {
+  padding: 10px;
+  background-color: #ff9900;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff5cc;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 160px;
+  border: 1px solid #ffcc66;
+  border-radius: 6px;
+}
+
+.submenu li {
+  padding: 10px;
+}
+
+.has-submenu:hover .submenu {
+  display: block;
+}
+
+.info-section p:first-child{
+    font-weight: 700;
+    font-size: 20px;
+}
+.intro ~ p {
+    padding: 5px;
+}
+li:nth-child(odd){
+    color: rgb(204, 61, 61)
+}
+
+input:focus {
+  border-color: #4caf50; 
+  outline: none;
+}
+button:hover {
+  background-color: #ff5722; 
+}
