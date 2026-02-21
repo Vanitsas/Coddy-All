@@ -1,0 +1,80 @@
+body{
+    margin: 0px;
+    background-color: antiquewhite;
+}
+.hero{
+    background-color: rgb(30, 207, 104);
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.hero h1{
+    color: white;
+}
+.hero p{
+    color: white;
+}
+/* Button styles */
+.btn {
+  background-color: #ff9933;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+.btn:hover {
+  background-color: #e67e22;
+}
+
+.btn:active {
+  transform: scale(0.96);
+  background-color: #cc6d1f;
+}
+
+/* The features section */
+.features {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.feature {
+  background: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  border: 1px solid #eee;
+  width: 280px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.feature:hover {
+  transform: matrix(1, 0, 0, 1, 0, -5);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.feature .icon {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.feature h3 {
+  color: #ff9900;
+  margin-bottom: 10px;
+}
